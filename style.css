@@ -1,0 +1,61 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+main {
+    width: 100wh;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: rgb(221, 97, 200);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    color: rgb(119, 11, 119);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p{
+    color: rgb(119, 11, 119);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Modificando a Imagem*/
+
+.Coracao{     
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.wrapper {
+    animation: pulse 1s infinite;
+    position: relative;
+}
+
+@keyframes pulse {
+    10% {
+        transform: scale(1.1)
+    }
+}
+
+@keyframes pulsecolor {
+    10% {
+        background: #dd0000
+    }
+}
